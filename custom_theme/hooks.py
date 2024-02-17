@@ -4,13 +4,20 @@ app_publisher = "aryannitesh"
 app_description = "change color of erpNext"
 app_email = "nk563951@gmail.com"
 app_license = "mit"
+app_logo_url = "/assets/custom_theme/images/Favicon.png"
+website_context = {
+    "favicon": "/assets/custom_theme/images/Favicon.png",
+	"splash_image": "/assets/custom_theme/images/Favicon.png"
+}
+
+
 # required_apps = []
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/custom_theme/css/custom_theme.css"
+app_include_css = "/assets/custom_theme/css/style.css"
 # app_include_js = "/assets/custom_theme/js/custom_theme.js"
 
 # include js, css files in header of web template
